@@ -1,0 +1,90 @@
+:root {
+    color: rgb(157, 140, 140);
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: sans-serif;
+   
+  }
+  
+  .logo {
+    color:white;
+    font-size: 30px;
+    font-family: 'Dosis', sans-serif;
+  }
+  
+  .menu-bar {
+    background-color:grey;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5%;
+    position: relative;
+  }
+  
+  .menu-bar ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  .menu-bar ul li {
+    padding: 10px 30px;
+    position: relative;
+  }
+  
+  .menu-bar ul li a {
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .hero {
+    height: calc(100vh - 80px);
+    background-image: url(dbg1.jpg);
+    background-position: center;
+    text-align: center;
+  }
+
+  li{
+    text-decoration: none;
+    list-style-type: none;
+    font-size: large;
+  }
+
+  video{
+  display: block;
+  margin: 0;
+  padding: 1px;
+  justify-items: right;
+  width: 30%;
+  height: 40%;
+  padding-left: 50px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  max-width: 12 0px;
+  margin: 0 auto;
+  color: rgb(57, 222, 197);
+  }
+  
+  .video {
+    flex: 1;
+    margin-left: 10px;
+}
+
+.video>h2{ 
+  padding-bottom: 40px;
+  font-size: 50px;
+}
